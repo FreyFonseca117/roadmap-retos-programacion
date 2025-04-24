@@ -92,17 +92,6 @@ type producto struct {
 	precio          float64
 }
 
-func menu() {
-	fmt.Println("==== REGISTRO DE VENTAS =====")
-	fmt.Println("==== POR FAVOR SELECCIONE UNA OPCION =====")
-	fmt.Println("==== 1 PARA CONSULTAR PRODUCTO =====")
-	fmt.Println("==== 2 PARA AÑADIR PRODUCTO =====")
-	fmt.Println("==== 3 PARA ACTUALIZAR PRODUCTO =====")
-	fmt.Println("==== 4 PARA ELIMINAR PRODUCTO =====")
-	fmt.Println("==== 5 PARA SALIR =====")
-
-}
-
 func main() {
 	crearFichero()
 	u := Usuario{
