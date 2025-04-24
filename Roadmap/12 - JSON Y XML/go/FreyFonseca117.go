@@ -19,6 +19,16 @@
  */
 package main
 
+import (
+	"time"
+)
+
+type user struct {
+	name      string
+	age       int
+	birthDate time.Time
+}
+
 func main() {
 
 }
